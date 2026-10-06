@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    background-color: #f2a0a0;
+    color: #3b1010;
+    font-family: Arial, sans-serif;
+}
+
+.dica-card {
+    width: min(100%, 600px);
+    padding: 28px;
+    box-sizing: border-box;
+    border: 1px solid #d97777;
+    border-radius: 12px;
+    background-color: #fff5f5;
+    box-shadow: 0 4px 16px rgba(110, 20, 20, 0.2);
+    text-align: center;
+}
+
+.dica-card h2 {
+    margin-top: 0;
+    color: #8f1717;
+}
+
+.dica-card p {
+    margin: 0 0 24px;
+    line-height: 1.6;
+}
+
+.dica-card a {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background-color: #a82020;
+    color: white;
+    text-decoration: none;
+}
+
+.dica-card a:hover,
+.dica-card a:focus-visible {
+    background-color: #8f2020;
+}
