@@ -1,0 +1,31 @@
+.pitagoras{
+    margin-left: 570px;
+    margin-top: 220px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    margin-top: 432px;
+}
+
+.formula{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.anagrama{
+    margin-top: 360px;
+}
+
+.butao{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 825px;
+}
+
